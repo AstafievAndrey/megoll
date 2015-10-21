@@ -32,6 +32,14 @@ define('HTTP_IMAGES_PATH', $config['base_url'].'assets/images/');
 define('HTTP_JS_PATH', $config['base_url'].'assets/js/');
 define('HTTP_FONT_PATH', $config['base_url'].'assets/fonts/css/');
 
+
+define('BOOTSTRAP', $config['base_url'].'assets/bootstrap/');//путь до бутстрапа
+define('CSS', $config['base_url'].'assets/css/');//путь до css
+define('ASSETS', $config['base_url'].'assets/');//путь до assets
+define('IMG', $config['base_url'].'assets/images/');//путь до изображений
+
+
+
 define('HTTP_LESS_PATH', $config['base_url'].'assets/css/');
 
 
