@@ -12,6 +12,7 @@ class Home extends CI_Controller {
 	
 	public function seo() {
 	    $this->load->view("public/head",array("title"=>"seo","desc"=>"описание"));
+	    $this->load->view("public/menu");
 	    $this->load->view("seo");
 	}
 }
