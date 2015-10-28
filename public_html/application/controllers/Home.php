@@ -11,8 +11,10 @@ class Home extends CI_Controller {
 	}
 	
 	public function seo() {
-	    $this->load->view("public/head",array("title"=>"seo","desc"=>"описание","css"=>array("seo.css")));
+	    $this->load->view("public/head",array("title"=>"Megooll | Услуги  SEO | Расскажем о продвижении и оптимизации сайта",
+		"desc"=>"Прежде, чем заниматься сео ознакомьтесь с нашей статьей. В ней вы узнаете о SEO оптимизации чуточку больше, что позволит вам избежать лишних неприятностей при поиске специалиста по сео, который будет заниматься продвижением вашего сайта в поисковиках."));
 	    $this->load->view("public/menu");
 	    $this->load->view("seo");
+	    $this->load->view("public/footer",array("css"=>array(CSS."seo.css")));
 	}
 }
