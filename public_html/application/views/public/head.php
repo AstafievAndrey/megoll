@@ -22,9 +22,12 @@
 	<script src="<?php echo BOOTSTRAP;?>js/bootstrap.min.js"></script>    
 	<link href="<?php echo CSS;?>style.css" rel="stylesheet">
 	<?php
+	    if(isset($desc)&&($desc!="")){
+		echo '<meta name="description" content="'.$desc.'" />';
+	    }
 	    if(isset($css)&&($css!="")){
 		for($i=0;$i<count($css);$i++){
-		    echo '<link href="'.$css[$i].'" rel="stylesheet">';
+		    echo '<link href="'.CSS.$css[$i].'" rel="stylesheet">';
 		}
 	    }
 	    if(isset($load_js)&&($load_js!="")){
