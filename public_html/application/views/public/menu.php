@@ -16,8 +16,18 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		    <ul class="nav navbar-nav">
-			<li class="active"><a href="/seo">Seo <span class="sr-only">(current)</span></a></li>
-			<li><a href="#">Мобильные приложения</a></li>
+			<?php
+			    if(stristr($str, "seo")){
+				echo '<li class="active"><a href="/seo">Seo <span class="sr-only">(current)</span></a></li>';
+			    }else{
+				echo '<li><a href="/seo">Seo</a></li>';
+			    }
+			    if(stristr($str, "razrabotka-mobilnogo-prilozheniya")){
+				echo '<li class="active"><a href="/razrabotka-mobilnogo-prilozheniya">Мобильные приложения <span class="sr-only">(current)</span></a></li>';
+			    }else{
+				echo '<li><a href="/razrabotka-mobilnogo-prilozheniya">Мобильные приложения</a></li>';
+			    }
+			?>
 			<li><a href="#">Контекстная реклама</a></li>
 			<li><a href="#">Сайты</a></li>
 			<li><a href="#">Наши проекты</a></li>

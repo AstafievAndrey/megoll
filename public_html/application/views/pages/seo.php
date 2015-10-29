@@ -1,5 +1,6 @@
 <div class="container-fluid" style="margin-top: 60px;">
 	<div class="container">
+	    <article>
 	    <div class="row">
 		<div class="col-sm-3">
 		    <img src="<?php echo IMG;?>seo/seo-2.jpg" alt="seo" class="img-responsive" />
@@ -110,7 +111,6 @@
 		    </p>
 		</div>
 	    </div>
-	    
 	    <div class="row">
 		<div class="col-sm-12" style="text-align: center;">
 		    <h3>Seo дерево</h3>
@@ -119,6 +119,6 @@
 		    <img src="<?php echo IMG;?>seo/seo-tree.png" alt="seo дерево" class="img-responsive" />
 		</div>
 	    </div>
-	    
+	    </article>
 	</div>
 </div>

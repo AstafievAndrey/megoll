@@ -14,7 +14,7 @@
 	text-decoration: none;
     }
 </style>
-<footer style="background: #4c4c4c;"> 
+<footer id="footer"> 
     <div class="container-fluid">
 	<div class="container">
 	    <div class="row" style="margin-top: 20px;margin-bottom: 40px;">
