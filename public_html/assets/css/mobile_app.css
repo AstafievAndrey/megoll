@@ -1,11 +1,44 @@
 body{
-    background: whitesmoke;
+    background: #F8FDFF;
 }
 p{
     text-align: justify;
 }
+h3{
+    font-size: 14px;
+}
+h4{
+    font-size: 12px;
+}
+.work>div{
+    text-align: center;
+}
+/*Шапка*/
+.navbar-default {
+    background-color: #4B8090;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #4A9296;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+/*Конец шапки*/
+.bck{
+    background: #4A9296;
+    color:white;
+}
 /*Футер*/
 #footer{
-    background: #e4e4e4;
+    background: #4B8090;
 }
 /*Конец Футер*/
